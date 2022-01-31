@@ -171,7 +171,7 @@
     justify-content: center;
     align-items: center;
     height:100%;
-    color:#ffffff;
+    color:var(--main-bg-color);
 }
 
 .fab{
@@ -206,7 +206,7 @@
     white-space: nowrap;
     border-radius: 0.25rem;
     font-size:16;
-    background-color:#666666;
-    color: ffffff;
+    background-color:var(--text-gray);
+    color: var(--main-bg-color);
     margin-right: 0.5rem;
 }
