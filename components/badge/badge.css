@@ -9,6 +9,7 @@
 .badge-icon{
     font-size: 2rem;
     color:gray;
+    
 }
 
 .badge-number{
@@ -24,4 +25,58 @@
     background-color: red;
     font-size:0.75rem;
     border: 0.1rem solid white;
+}
+
+.badge-online{
+    position: absolute;
+    bottom: -0.5rem;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    height:1rem;
+    width:1rem;
+    background-color: green;
+    font-size:0.75rem;
+    border: 0.1rem solid white;
+}
+
+.badge-idle{
+    position: absolute;
+    bottom: -0.5rem;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    height:1rem;
+    width:1rem;
+    background-color: gray;
+    font-size:0.75rem;
+    border: 0.1rem solid white;
+}
+
+.badge-dnd{
+    position: absolute;
+    bottom: -0.5rem;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    height:1rem;
+    width:1rem;
+    background-color: red;
+    font-size:0.75rem;
+    border: 0.1rem solid white;
+}
+
+.badge-button{
+    background-color:blue;
+    color: white;
+    outline:none;
+    border: none;
+    width:5rem;
+    height:2rem;
 }
