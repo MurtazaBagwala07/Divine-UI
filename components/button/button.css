@@ -205,7 +205,7 @@
     user-select: none;
     white-space: nowrap;
     border-radius: 0.25rem;
-    font-size:16;
+    font-size:1rem;
     background-color:var(--text-gray);
     color: var(--main-bg-color);
     margin-right: 0.5rem;
