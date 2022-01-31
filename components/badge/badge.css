@@ -8,8 +8,7 @@
 
 .badge-icon{
     font-size: 2rem;
-    color:gray;
-    
+    color:var(--text-gray);
 }
 
 .badge-number{
@@ -22,9 +21,9 @@
     border-radius:50%;
     height:1rem;
     width:1rem;
-    background-color: red;
+    background-color: var(--alert-red);
     font-size:0.75rem;
-    border: 0.1rem solid white;
+    border: 0.1rem solid var(--main-bg-color);
 }
 
 .badge-online{
@@ -37,9 +36,9 @@
     border-radius:50%;
     height:1rem;
     width:1rem;
-    background-color: green;
+    background-color: var(--online-green);
     font-size:0.75rem;
-    border: 0.1rem solid white;
+    border: 0.1rem solid var(--main-bg-color);
 }
 
 .badge-idle{
@@ -52,9 +51,9 @@
     border-radius:50%;
     height:1rem;
     width:1rem;
-    background-color: gray;
+    background-color: var(--text-gray);
     font-size:0.75rem;
-    border: 0.1rem solid white;
+    border: 0.1rem solid var(--main-bg-color);
 }
 
 .badge-dnd{
@@ -67,14 +66,14 @@
     border-radius:50%;
     height:1rem;
     width:1rem;
-    background-color: red;
+    background-color: var(--alert-red);
     font-size:0.75rem;
-    border: 0.1rem solid white;
+    border: 0.1rem solid var(--main-bg-color);
 }
 
 .badge-button{
-    background-color:blue;
-    color: white;
+    background-color:var(--secondary);
+    color: var(--main-bg-color);
     outline:none;
     border: none;
     width:5rem;
